@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glow {
+  transition: all 0.3s ease-in-out;
+}
+
+.glow:hover {
+  box-shadow: 0 0 25px rgb(76, 127, 236);
+}
+
+.img_glow {
+box-shadow:  0 0 55px rgb(76, 127, 236);
+}
+
+.neno-button {
+  transition: all 0.3s ease-in-out;
+}
+
+.neno-button:hover {
+  box-shadow: 0 0 15px rgb(76, 127, 236);
+}
+.b_glow {
+  box-shadow: 0 0 15px rgb(76, 127, 236);
+}
+
+.loader {
+  background-image: url(./images/backgroundPage.png);
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(15, 23, 42); */
+  background: conic-gradient(at 0% 30%, gray  10%, #0F172A 30%, gray  50%);
+}
